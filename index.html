@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le Roi De l'I.A - Studio Royal</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <style>
+        body {
+            font-family: Arial, sans-serif !important;
+            color: #9933CC !important; /* Mauve Arial demandé */
+            background-color: #064e3b; /* Fond émeraude profond */
+            margin: 0;
+        }
+        .bg-turquoise { background-color: #00CED1; }
+        .text-turquoise { color: #00CED1; }
+        .bg-gold { background-color: #FFD700; }
+        .text-gold { color: #FFD700; }
+        .border-gold { border-color: #FFD700; }
+        .text-mauve { color: #9933CC; }
+        
+        /* Boutons et éléments dorés */
+        .btn-royal {
+            background-color: #FFD700;
+            color: #9933CC;
+            font-weight: 900;
+            text-transform: uppercase;
+            border-radius: 9999px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(255, 215, 0, 0.4);
+        }
+        .btn-royal:hover {
+            transform: scale(1.05);
+            filter: brightness(1.1);
+        }
+        
+        ::-webkit-scrollbar { width: 10px; }
+        ::-webkit-scrollbar-track { background: #064e3b; }
+        ::-webkit-scrollbar-thumb { background: #FFD700; border-radius: 5px; }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "@google/genai": "https://esm.sh/@google/genai@^1.35.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3"
+  }
+}
+</script>
+</head>
+<body>
+    <div id="root"></div>
+</body>
+</html>
